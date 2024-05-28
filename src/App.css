@@ -1,0 +1,19 @@
+html, body {
+    overflow-x: hidden;
+}
+
+.moving-div-left {
+    opacity: 0;
+    animation: moveAndFade 1s ease forwards;
+}
+
+@keyframes moveAndFade {
+    0% {
+      right: -100px;
+      opacity: 0;
+    }
+    100% {
+      right: 0;
+      opacity: 1;
+    }
+}
