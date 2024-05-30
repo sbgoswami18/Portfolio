@@ -10,6 +10,7 @@ import project_2 from "../assets/project_2.png";
 import project_3 from "../assets/project_3.png";
 import email from "../assets/email.png";
 import resume from "../assets/resume.pdf";
+import logo from "../assets/logo.jpg";
 
 import { AiOutlineMenu } from 'react-icons/ai';
 import { ImCross } from 'react-icons/im';
@@ -42,12 +43,10 @@ const Home = () => {
                 {/* Main Section */}
                 <div className="flex flex-col min-h-[100%]">
                     {/* Navbar */}
-                    <div className="flex flex-row justify-between my-10 items-center">
+                    <div className="flex flex-row justify-between my-0 items-center">
                         <div>
                             <a href='/'>
-                                <div className="text-4xl font-bold hover:text-blue-500 transition-all duration-200 cursor-pointer">
-                                    Portfolio
-                                </div>
+                                <img src={logo} className=' w-24 h-20 object-cover hover:scale-110 transition-all duration-200' />
                             </a>
                         </div>
                         <div className="flex-row gap-x-6 text-xl hidden md:flex">
