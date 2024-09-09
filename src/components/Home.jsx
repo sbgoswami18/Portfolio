@@ -51,7 +51,7 @@ const Home = () => {
                         </div>
                         <div className="flex-row gap-x-6 text-xl hidden md:flex">
                             <a href="#about_link" className='font-semibold hover:text-blue-500 transition-all duration-200 hover:underline'>About</a>
-                            <a href="#experience_link" className='font-semibold hover:text-blue-500 transition-all duration-200 hover:underline'>Skills</a>
+                            <a href="#experience_link" className='font-semibold hover:text-blue-500 transition-all duration-200 hover:underline'>Skill</a>
                             <a href="#Project_link" className='font-semibold hover:text-blue-500 transition-all duration-200 hover:underline'>Projects</a>
                             <a href="#contact_link" className='font-semibold hover:text-blue-500 transition-all duration-200 hover:underline'>Contact</a>
                         </div>
