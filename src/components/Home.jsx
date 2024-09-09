@@ -281,7 +281,7 @@ const Home = () => {
                     </div>
                     <div className='flex flex-col lg:flex-row gap-x-4 gap-y-4 w-[100%] text-center'>
                         <div className='mx-auto flex flex-col items-center gap-y-6 border-black border-2 rounded-3xl p-8'>
-                            <img src={project_1} alt="project_1" className='w-[18rem] h-[18rem] object-cover rounded-3xl' />
+                            <img src={project_1} alt="project_1" className='w-[18rem] h-[18rem] object-cover rounded-3xl border-black border-[1px]' />
                             <h2 className='text-4xl font-bold'>StudyCircle</h2>
                             <div className='flex gap-x-4'>
                                 <a href='https://studycircle.vercel.app/' target='_blank'>
@@ -293,7 +293,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='mx-auto flex flex-col items-center gap-y-6 border-black border-2 rounded-3xl p-8'>
-                            <img src={project_2} alt="project_2" className='w-[18rem] h-[18rem] object-cover rounded-3xl' />
+                            <img src={project_2} alt="project_2" className='w-[18rem] h-[18rem] object-cover rounded-3xl border-black border-[1px] ' />
                             <h2 className='text-4xl font-bold'>FoodCircle</h2>
                             <div className='flex gap-x-4'>
                                 <a href='https://foodcircle.vercel.app/' target='_blank'>
@@ -305,7 +305,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='mx-auto flex flex-col items-center gap-y-6 border-black border-2 rounded-3xl p-8'>
-                            <img src={project_3} alt="project_3" className='w-[18rem] h-[18rem] object-cover rounded-3xl' />
+                            <img src={project_3} alt="project_3" className='w-[18rem] h-[18rem] object-cover rounded-3xl border-black border-[1px]' />
                             <h2 className='text-4xl font-bold'>EasyShop</h2>
                             <div className='flex gap-x-4'>
                                 <a href='https://easyshop-rosy.vercel.app/' target='_blank'>
